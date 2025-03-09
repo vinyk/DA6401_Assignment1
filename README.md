@@ -1,28 +1,35 @@
 Configuration
 Command-Line Arguments
 You can configure the training process via command-line arguments. Below is the list of available arguments:
+# Neural Network Training with Weights & Biases Logging
 
-Weights & Biases Arguments:
---wandb_project: Name of your Weights & Biases project (default: myprojectname)
---wandb_entity: Name of your Weights & Biases entity (default: myname)
-Dataset Selection:
---dataset: Choose the dataset for training (mnist or fashion_mnist, default: fashion_mnist)
-Training Parameters:
---epochs: Number of training epochs (default: 1)
---batch_size: Batch size for training (default: 4)
---loss: Loss function (mean_squared_error or cross_entropy, default: cross_entropy)
---optimizer: Optimizer to use (sgd, momentum, nag, rmsprop, adam, nadam, default: sgd)
---learning_rate: Learning rate (default: 0.1)
-Optimizer Hyperparameters:
---momentum: Momentum for momentum and nag optimizers (default: 0.5)
---beta: Beta for rmsprop optimizer (default: 0.5)
---beta1: Beta1 for adam and nadam optimizers (default: 0.5)
---beta2: Beta2 for adam and nadam optimizers (default: 0.5)
---epsilon: Epsilon for optimizers (default: 0.000001)
-Weight Initialization & Decay:
---weight_decay: Weight decay for optimizers (default: 0.0)
---weight_init: Weight initialization method (random or Xavier, default: random)
-Network Architecture:
---num_layers: Number of hidden layers (default: 1)
---hidden_size: Number of neurons per hidden layer (default: 4)
---activation: Activation function (identity, sigmoid, tanh, ReLU, default: sigmoid)
+This project implements a neural network training pipeline with integration to Weights & Biases (WandB) for experiment tracking. The training supports multiple hyperparameters, including optimizer choice, batch size, learning rate, and network architecture configuration. The project also includes a sweep configuration for hyperparameter optimization using WandB's Bayesian search method.
+
+## Features
+- Train neural networks on MNIST or Fashion-MNIST datasets.
+- Track training progress and hyperparameters with Weights & Biases.
+- Hyperparameter optimization using WandB sweeps with Bayesian optimization.
+- Supports multiple optimizers including SGD, Adam, and others.
+- Implements a fully connected feed-forward neural network with customizable layers and activation functions.
+
+## Project Structure
+├── train.py # Main script for training the model ├── utils.py # Utility functions for argument parsing ├── optimizer.py # Optimizer class (e.g., Adam, SGD) ├── neural_network.py # Neural Network class for forward and backward pass ├── dataset.py # Dataset loading functions for MNIST/Fashion-MNIST ├── sweep_config.py # Configuration for WandB sweep (hyperparameter tuning) └── README.md # Project documentation
+
+
+## Installation
+
+### Prerequisites
+
+To run this project, you'll need the following:
+
+- Python 3.x
+- pip (Python package manager)
+- Virtual environment (optional but recommended)
+
+### Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+2. Create and activate a virtual environment
