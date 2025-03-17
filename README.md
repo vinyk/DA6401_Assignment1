@@ -4,7 +4,7 @@ This project implements a neural network training pipeline with integration to W
 
 Github Repository: [Github Repo](https://github.com/vinyk/DA6401_Assignment1/)
 
-Wandb Report: [Wandb Report]([https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment_Attempt3/reports/DA6401-Assignment-1--VmlldzoxMTcyMDQ4NA](https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment_Attempt3/reports/DA6401-Assignment-1--VmlldzoxMTcyMDQ4NA?accessToken=v5utfxbs5rkqos2n1009vo7p3lxvk1cfgsegf8uk89jio0n4zrj1wi1eiy2krsqm))
+Wandb Report: [Wandb Report](https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment_Attempt3/reports/DA6401-Assignment-1--VmlldzoxMTcyMDQ4NA?accessToken=v5utfxbs5rkqos2n1009vo7p3lxvk1cfgsegf8uk89jio0n4zrj1wi1eiy2krsqm)
 
 ## Features
 - Train neural network on Fashion-MNIST dataset.
