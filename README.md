@@ -2,6 +2,9 @@
 
 This project implements a neural network training pipeline with integration to Weights & Biases (WandB) for experiment tracking. The training supports multiple hyperparameters, including optimizer choice, batch size, learning rate, and network architecture configuration. The project also includes a sweep configuration for hyperparameter optimization using WandB's Bayesian search method.
 
+Github Repository: [Github Repo](https://github.com/vinyk/DA6401_Assignment1/)
+Wandb Report: [Wandb Report](https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment_Attempt3/reports/DA6401-Assignment-1--VmlldzoxMTcyMDQ4NA)
+
 ## Features
 - Train neural network on Fashion-MNIST dataset.
 - Track training progress and hyperparameters with Weights & Biases.
