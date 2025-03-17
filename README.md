@@ -65,7 +65,6 @@ As mentioned in the assignment, the following arguements were used:
 | `-l`, `--loss` | cross_entropy | choices:  ["mean_squared_error", "cross_entropy"] |
 | `-o`, `--optimizer` | sgd | choices:  ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"] | 
 | `-lr`, `--learning_rate` | 0.1 | Learning rate used to optimize model parameters | 
-| `-m`, `--momentum` | 0.5 | Momentum used by momentum and nag optimizers. |
 | `-beta`, `--beta` | 0.5 | Beta used by rmsprop optimizer | 
 | `-beta1`, `--beta1` | 0.5 | Beta1 used by adam and nadam optimizers. | 
 | `-beta2`, `--beta2` | 0.5 | Beta2 used by adam and nadam optimizers. |
@@ -78,6 +77,12 @@ As mentioned in the assignment, the following arguements were used:
 
 The best hyperparameter set is set as the default value for all parameters in utils.py.
 
+## Training Script for Wandb Sweeping:
+
+In the Helper_files folder, run the train.py file to swep through the parameters.
+```
+python train.py --wandb_entity myname --wandb_project myprojectname
+```
 ## Model Performance
 
 ### Fashion MNIST Dataset
