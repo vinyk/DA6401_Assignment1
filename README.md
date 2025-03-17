@@ -53,8 +53,8 @@ To run this project, you'll need the following:
 5) The `Helper_files` folder contains the code files for Neural Network, sweeping, Optimizers in .py format.
 6) A `utils.py` file has also been provided that is used for arguement parsing (as mentioned in the assignment).
 
-## Arguements Used
-As mentioned in the assignment, the following arguements were used:
+## Arguments Used
+As mentioned in the assignment, the following arguments were used:
 
 | Name | Default Value | Description |
 | :---: | :-------------: | :----------- |
