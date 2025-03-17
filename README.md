@@ -44,3 +44,9 @@ To run this project, you'll need the following:
 3) Scikit-learn
 4) Matplotlib
 5) Wandb (For logging)
+
+## Repository Layout
+1) The notebook DA6401_Assignment_Final Notebook contains the code for the Neural network class, Optimizer class and Activation functions.
+2) The Wandb sweep has also been run in the same notebook and the results given in the report.
+3) The Helper_files folder contains the code files for Neural Network, sweeping, Optimizers in .py format.
+4) A utils.py file has also been provided that is used for arguement parsing (as mentioned in the assignment). 
