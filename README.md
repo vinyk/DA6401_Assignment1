@@ -6,6 +6,8 @@ Github Repository: [Github Repo](https://github.com/vinyk/DA6401_Assignment1/)
 
 Wandb Report: [Wandb Report](https://wandb.ai/vinyk-sd-indian-institute-of-technology-madras/Assignment_Attempt3/reports/DA6401-Assignment-1--VmlldzoxMTcyMDQ4NA?accessToken=v5utfxbs5rkqos2n1009vo7p3lxvk1cfgsegf8uk89jio0n4zrj1wi1eiy2krsqm)
 
+Code Organization:  vinyk-sd-indian-institute-of-technology-madras-org
+
 ## Features
 - Train neural network on Fashion-MNIST dataset.
 - Track training progress and hyperparameters with Weights & Biases.
@@ -84,7 +86,7 @@ The best hyperparameter set is set as the default value for all parameters in ut
 
 ## Training Script for Wandb Sweeping:
 
-In the Helper_files folder, run the train.py file to swep through the parameters.
+In the Helper_files folder, run the train.py file to sweep through the parameters.
 ```
 python train.py --wandb_entity myname --wandb_project myprojectname
 ```
