@@ -10,6 +10,7 @@ This project implements a neural network training pipeline with integration to W
 - Implements a fully connected feed-forward neural network with customizable layers and activation functions.
 
 ## Project Structure
+```
 ├── train.py # Main script for training the model
 ├── utils.py # Utility functions for argument parsing
 ├── optimizer.py # Optimizer class (e.g., Adam, SGD)
@@ -17,7 +18,7 @@ This project implements a neural network training pipeline with integration to W
 ├── dataset.py # Dataset loading functions for MNIST/Fashion-MNIST
 ├── sweep_config.py # Configuration for WandB sweep (hyperparameter tuning)
 └── README.md # Project documentation
-
+```
 
 ## Installation
 
