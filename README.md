@@ -46,13 +46,14 @@ To run this project, you'll need the following:
 5) Wandb (For logging)
 
 ## Repository Layout
-1) The notebook DA6401_Assignment_Final Notebook contains the code for the Neural network class, Optimizer class and Activation functions.
+1) The notebook Fashion_MNIST.ipynb contains the code for the Neural network class, Optimizer class and Activation functions.
 2) The Wandb sweep has also been run in the same notebook and the results given in the report.
-3) The Helper_files folder contains the code files for Neural Network, sweeping, Optimizers in .py format.
-4) A utils.py file has also been provided that is used for arguement parsing (as mentioned in the assignment).
+3) The confusion matrix for notebook Confusion.ipynb 
+4) The Helper_files folder contains the code files for Neural Network, sweeping, Optimizers in .py format.
+5) A utils.py file has also been provided that is used for arguement parsing (as mentioned in the assignment).
 
 ## Arguements Used
-As mentioned in the assignment, the following arguements were used
+As mentioned in the assignment, the following arguements were used:
 
 | Name | Default Value | Description |
 | :---: | :-------------: | :----------- |
@@ -89,11 +90,35 @@ Given below is the best hyperparameter set for Fashion MNIST.
 'epsilon': 0.95,
 'optimizer': 'rmsprop',
 'learning_rate': 0.0001,
+'beta1': 0.9,
+'beta2':0.9999,
 'weight_decay': 0.5,
 'weight_init': "xavier",
 'hidden_layers': 5,
 'hidden_size': 128,
 'activation': 'tanh'
+'output_activation':'softmax'
 ```
 **The training accuracy is 90.73% and validation accuracy is 87.98%.**
+
+### MNIST Dataset
+
+Given below is the best hyperparameter set for MNIST.
+
+```
+'epochs': 10,
+'batch_size': 64,
+'epsilon': 0.95
+'optimizer': 'nadam',
+'beta1': 0.9,
+'beta2':0.9999,
+'learning_rate': 0.001,
+'weight_decay': 0.5,
+'weight_init': "xavier",
+'hidden_layers': 4,
+'hidden_size':64,
+'activation':'tanh',
+'output_activation':'softmax'
+```
+**The training accuracy is 97.9% and validation accuracy is 96.39%.**
 
