@@ -37,3 +37,10 @@ To run this project, you'll need the following:
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 2. Create and activate a virtual environment
+
+## Requirements
+1) Numpy
+2) Tensorflow (for importing the Dataset)
+3) Scikit-learn
+4) Matplotlib
+5) Wandb (For logging)
