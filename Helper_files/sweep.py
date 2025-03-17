@@ -1,5 +1,5 @@
 import wandb
-from train import train
+from train_12 import train
 
 sweep_config = {
     'method': 'bayes',
