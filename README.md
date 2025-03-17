@@ -74,3 +74,26 @@ As mentioned in the assignment, the following arguements were used
 | `-nhl`, `--num_layers` | 1 | Number of hidden layers used in feedforward neural network. | 
 | `-sz`, `--hidden_size` | 4 | Number of hidden neurons in a feedforward layer. |
 | `-a`, `--activation` | sigmoid | choices:  ["identity", "sigmoid", "tanh", "ReLU"] |
+
+The best hyperparameter set is set as the default value for all parameters in utils.py.
+
+## Model Performance
+
+### Fashion MNIST Dataset
+
+Given below is the best hyperparameter set for Fashion MNIST.
+
+```
+'epochs': 20,
+'batch_size': 32,
+'epsilon': 0.95,
+'optimizer': 'rmsprop',
+'learning_rate': 0.0001,
+'weight_decay': 0.5,
+'weight_init': "xavier",
+'hidden_layers': 5,
+'hidden_size': 128,
+'activation': 'tanh'
+```
+**The training accuracy is 90.73% and validation accuracy is 87.98%.**
+
