@@ -96,6 +96,7 @@ Given below is the best hyperparameter set for Fashion MNIST.
 'epsilon': 0.95,
 'optimizer': 'rmsprop',
 'learning_rate': 0.0001,
+'beta': 0.9
 'beta1': 0.9,
 'beta2':0.9999,
 'weight_decay': 0.5,
@@ -116,6 +117,7 @@ Given below is the best hyperparameter set for MNIST.
 'batch_size': 64,
 'epsilon': 0.95
 'optimizer': 'nadam',
+'beta': 0.9,
 'beta1': 0.9,
 'beta2':0.9999,
 'learning_rate': 0.001,
